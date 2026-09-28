@@ -1,0 +1,19 @@
+{
+  "name": "pi-resource-manager",
+  "version": "1.0.0",
+  "description": "pi 扩展：资源管理。`/res` 打开浮层，列出当前已加载的 skill 与扩展（含工具、命令、描述），直接删除不需要的条目。",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent"
+  ],
+  "pi": {
+    "extensions": [
+      "./resource-manager.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}

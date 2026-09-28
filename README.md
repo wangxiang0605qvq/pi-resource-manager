@@ -4,11 +4,18 @@ pi 扩展：资源管理。`/res` 打开浮层，列出当前已加载的 skill 
 
 ## 安装
 
+### 方式一：作为 pi 包安装（推荐）
+
+```bash
+pi install git:github.com/wangxiang0605qvq/pi-resource-manager
+```
+
+### 方式二：手动复制
+
 复制 `resource-manager.ts` 到 pi 扩展目录：
 
 ```bash
 cp resource-manager.ts ~/.pi/agent/extensions/resource-manager.ts
-# Windows 默认: D:\pihub\.pi\agent\extensions\
 ```
 
 然后 `/reload`。
@@ -27,3 +34,7 @@ cp resource-manager.ts ~/.pi/agent/extensions/resource-manager.ts
 - 历史遗留的 `*.disabled` 文件也会列出，可单独清理。
 - 删除后 `/reload` 彻底生效。
 - 仅支持 TUI 模式。
+
+## 版权
+
+著作权归作者所有，保留一切权利。详见 [LICENSE](LICENSE)。
